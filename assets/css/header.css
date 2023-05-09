@@ -1,0 +1,87 @@
+
+/* START MENU */
+
+.cont-header{
+    width: 1200px;
+    background-color: #013a6b;
+    margin: 0 auto;
+    /* centralização automatica */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s;
+}
+.cont-header:hover{
+  background-color: #004480;
+}
+.cont-header nav ul{
+   display: flex; 
+   flex-direction: row;
+   list-style: none;
+   align-items: center;
+   
+   
+}
+.cont-header nav ul li {
+    margin: 0 20px;
+    text-transform: uppercase;
+    
+    
+}
+.cont-header nav ul li a{
+    text-decoration: none;
+    color: #013596;
+    display: block;
+    background-color: white;
+    transition: color 0.5s;
+    transition: all 0.5s;
+    
+}
+.cont-header nav ul li a:hover{
+    transform: scale(1.15);
+    text-decoration: underline;
+    color: #005aff;
+}
+
+.cont-header img{
+    width: 200px;
+    height: auto;
+    margin: 20px 50px;
+}
+.login-cadastro {
+  width: 100%;
+  justify-content: center;
+}
+
+/* END MENU */
+
+/* START FAIXA BORDAO */
+
+.faixa {
+    background-color: black;
+    margin: 0 auto;
+    width: 1200px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+  }
+  .faixa span{
+    display: block;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    cursor: pointer;
+  }
+  .faixa span {
+    animation: fadeInFadeOut 0.1s linear infinite;
+  }
+  @keyframes fadeInFadeOut {
+    0% {opacity:1;}
+    50%{opacity: 0;}
+    100% {opacity:1;}
+  }
+  /* END FAIXA BORDAO */
+  
